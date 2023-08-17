@@ -1,0 +1,90 @@
+.Box {
+
+    margin-left: 500px;
+    margin: auto;
+    align-items: center;
+    padding-top: 16px !important;
+    backdrop-filter: blur(6px);
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-top: 50px !important;
+
+}
+
+.Boxy {
+
+    margin-left: 500px;
+    margin: auto;
+    align-items: center;
+
+    backdrop-filter: blur(6px);
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    /* margin-top: 50px !important; */
+
+}
+
+
+
+.outer {
+    margin-top: -5% !important;
+    height: 100vh;
+
+    background-image: url("https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80");
+
+}
+
+.Button {
+    display: flex;
+}
+
+.image1 {
+
+    margin-left: 50px;
+    transform: scale(0.7);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.textyy {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: -50px !important;
+}
+
+@media (max-width: 700px) {
+
+
+    .outer {
+        margin-top: -20% !important;
+        height: 102vh !important;
+        margin-bottom: -20% !important;
+        width: 100% !important;
+    }
+
+    .imgg {
+        margin-right: 50px !important;
+    }
+
+    .Box {
+        width: 90% !important;
+        height: 80%;
+    }
+
+    .Boxy {
+        width: 50vh !important;
+    }
+
+    .textyy {
+        width: 45vh !important;
+    }
+
+
+
+}

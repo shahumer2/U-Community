@@ -1,0 +1,24 @@
+.table {
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: white !important;
+    background-color: #111111;
+    margin-top: 10px;
+    height: 80%;
+
+}
+
+.butt {
+    margin: 10px !important;
+    background-color: blue !important;
+    color: aliceblue !important;
+}
+
+.butt:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.linkk {
+    text-decoration: none;
+    color: white;
+}

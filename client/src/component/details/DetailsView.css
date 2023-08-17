@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto+Serif:wght@100&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Zeyada&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shantell+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Lumanosimo&family=Roboto+Serif:wght@100&family=Zeyada&display=swap');
+
+
+.imgg {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+    box-shadow: 10px 10px 8px #888888;
+
+    margin-right: 12px !important;
+    margin: 10px 10px;
+
+
+
+}
+
+.containerr {
+    margin-top: 50px;
+
+}
+
+
+.edi {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    background-color: black
+}
+
+.del {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    background-color: black;
+    color: blue;
+}
+
+.texty {
+    color: #878787;
+    font-size: large;
+    margin: 20px;
+    display: flex;
+    letter-spacing: 2px !important;
+
+
+}
+
+.headdd {
+    font-size: 60px !important;
+    font-weight: 500 !important;
+    text-align: center;
+    margin: 50px 0 10px 0 !important;
+    word-break: break-word;
+    font-family: 'Lumanosimo', cursive !important;
+    color: #878787;
+    text-transform: capitalize;
+
+
+
+
+}
+
+.descr {
+    font-family: 'Lumanosimo', cursive !important;
+    color: #878787;
+    font-weight: bolder;
+    font-size: 20px !important;
+    margin-left: 17rem !important;
+    margin-right: 5rem !important;
+    text-transform: capitalize;
+    justify-content: center !important;
+    margin-top: 3rem !important;
+
+
+
+}
+
+.mainn {
+    /* background-color: rgb(228, 220, 220); */
+    background-color: white;
+}
+
+.auth {
+    color: black;
+    box-shadow: 6px 6px 6px #888888;
+    width: 200px;
+    padding: 15px !important;
+    margin: 15px !important;
+}
+
+.countr {
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 7px 6px 6px #888888;
+    width: 200px;
+    margin: 15px;
+
+}
+
+.datess {
+    color: black;
+    font-weight: bolder !important;
+    box-shadow: 10px 10px 8px #888888;
+    width: 150px;
+    margin-right: 8px !important;
+}
+
+.userd {
+    margin-left: -35rem !important;
+    margin-top: -7rem !important;
+    border: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-container {
+    width: 100% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* backdrop-filter: blur(6px) !important; */
+}
+
+
+
+.contents {
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px !important;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+
+
+}
+
+.tippy {
+    background-color: aliceblue;
+}
+
+@media (max-width: 700px) {
+
+
+    .descr {
+        margin-left: 10% !important;
+    }
+
+    .imgg {
+        margin-right: 50px !important;
+    }
+
+    .my-container {
+        width: 10px !important;
+        padding-left: 23rem !important;
+        padding-top: 5rem !important;
+    }
+
+    .contents {
+        font-size: 17px !important;
+    }
+
+    .userd {
+        font-size: 12px !important;
+    }
+
+
+}
