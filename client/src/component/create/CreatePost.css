@@ -52,3 +52,15 @@
     margin-left: 75rem !important;
     margin-top: 1rem !important;
 }
+@media (max-width: 700px) {
+    .pubb{
+        margin-left: 14rem  !important;
+        margin-top: 0.5rem !important;
+    }
+    .ubutt{
+        margin-left: 14rem  !important;
+        margin-top: 0.5rem !important;
+
+    }
+
+}

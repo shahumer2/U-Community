@@ -34,7 +34,7 @@ const storage = new GridFsStorage({
     options: { useNewUrlParser: true },
     file: (request, file) => {
         console.log(file, "filessssssssssssssssss");
-        const match = ["image/png", "image/jpg"];
+        const match = ["image.png", "image.jpg","image.DNG","image.jpeg"];
         if (match.indexOf(file.mimetype) === -1) {
             return `${Date.now()}-blog-${file.originalname}`
 

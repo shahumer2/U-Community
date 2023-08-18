@@ -66,7 +66,7 @@ function CreatePost() {
 
                     // api call
                     const response = await API.uploadFile(data);
-                    // console.log("newww", data);
+                    console.log("newww", response.data.imageUrl);
 
                     post.picture = response.data;
                     // setpost({ ...post, picture: response.data.imageUrl })
